@@ -1,0 +1,31 @@
+@mixin mediaQueries($breakPoint) {
+  @if ($breakPoint == 'x-sm') {
+    @media (min-width: 320px) and( max-width: 575px) {
+      @content;
+    }
+  }
+
+  @if ($breakPoint == 'sm') {
+    @media (min-width: 576px) and( max-width: 769px) {
+      @content;
+    }
+  }
+
+  @if ($breakPoint == 'md') {
+    @media (min-width: 768px) and (max-width: 991px) {
+      @content;
+    }
+  }
+
+  @if ($breakPoint == 'lg') {
+    @media (min-width: 992px) and (max-width: 1199px) {
+      @content;
+    }
+  }
+
+  @if ($breakPoint == 'x-lg') {
+    @media (min-width: 1200px) {
+      @content;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+@import './mixins';
+@import './resets';
+@import './variables';
+
+p {
+  @include mediaQueries('sm') {
+    font-size: 30px
+  };
+
+  @include mediaQueries('md') {
+    font-size: 40px
+  };
+}
