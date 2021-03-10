@@ -1,3 +1,19 @@
+# Terminal Command
+
+```powershell
+sass --watch --no-source-map ./_scss/main.scss:./assets/styles/main.css
+```
+
+
+
+# pull repo
+
+```basic
+git pull https://github.com/anku559/sass-template.git
+```
+
+
+
 # Folder Structure
 
 ```markdown
@@ -17,12 +33,4 @@ __index.html
 ```
 
 
-
-
-
-# Terminal Command
-
-```powershell
-sass --watch --no-source-map ./_scss/main.scss:./assets/styles/main.css
-```
 
